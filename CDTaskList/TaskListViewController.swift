@@ -6,9 +6,10 @@
 //
 
 import UIKit
+import CoreData
 
 class TaskListViewController: UITableViewController {
-    
+    private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     private let cellID = "cell"
     
     override func viewDidLoad() {
@@ -65,6 +66,10 @@ class TaskListViewController: UITableViewController {
     }
     
     private func save(_ taskName: String) {
+        guard let entityDescription = NSEntityDescription(forEntityName: "cell", in: context) else { return }
+        guard let task = NSManagedObject(entity: entityDescription, insertInto: context) as? Task else { return }
+        
+        
         
     }
 }

@@ -103,12 +103,12 @@
 			children = (
 				BAEFB4F82BB6FCC10002D6EF /* AppDelegate.swift */,
 				BAEFB4FC2BB6FCC10002D6EF /* TaskListViewController.swift */,
+				BA7D80B92BBAE20E0054085C /* StorageManager.swift */,
+				BA7D80BB2BBAE5F90054085C /* AlertController.swift */,
 				BAEFB5042BB6FCC20002D6EF /* Assets.xcassets */,
 				BAEFB5062BB6FCC20002D6EF /* LaunchScreen.storyboard */,
 				BAEFB5092BB6FCC20002D6EF /* Info.plist */,
 				BAEFB5012BB6FCC10002D6EF /* CDTaskList.xcdatamodeld */,
-				BA7D80B92BBAE20E0054085C /* StorageManager.swift */,
-				BA7D80BB2BBAE5F90054085C /* AlertController.swift */,
 			);
 			path = CDTaskList;
 			sourceTree = "<group>";

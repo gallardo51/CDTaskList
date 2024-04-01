@@ -20,7 +20,6 @@ class TaskListViewController: UITableViewController {
     private func setupView() {
         view.backgroundColor = .white
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
-        navigationItem.leftBarButtonItem = editButtonItem
         setNavigationBar()
     }
     

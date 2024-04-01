@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA7D80BA2BBAE20E0054085C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D80B92BBAE20E0054085C /* StorageManager.swift */; };
+		BA7D80BC2BBAE5F90054085C /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7D80BB2BBAE5F90054085C /* AlertController.swift */; };
 		BAEFB4F92BB6FCC10002D6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB4F82BB6FCC10002D6EF /* AppDelegate.swift */; };
 		BAEFB4FD2BB6FCC10002D6EF /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB4FC2BB6FCC10002D6EF /* TaskListViewController.swift */; };
 		BAEFB5032BB6FCC10002D6EF /* CDTaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB5012BB6FCC10002D6EF /* CDTaskList.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		BA7D80B92BBAE20E0054085C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		BA7D80BB2BBAE5F90054085C /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		BAEFB4F52BB6FCC10002D6EF /* CDTaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDTaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEFB4F82BB6FCC10002D6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEFB4FC2BB6FCC10002D6EF /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BAEFB5092BB6FCC20002D6EF /* Info.plist */,
 				BAEFB5012BB6FCC10002D6EF /* CDTaskList.xcdatamodeld */,
 				BA7D80B92BBAE20E0054085C /* StorageManager.swift */,
+				BA7D80BB2BBAE5F90054085C /* AlertController.swift */,
 			);
 			path = CDTaskList;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEFB4FD2BB6FCC10002D6EF /* TaskListViewController.swift in Sources */,
+				BA7D80BC2BBAE5F90054085C /* AlertController.swift in Sources */,
 				BAEFB5032BB6FCC10002D6EF /* CDTaskList.xcdatamodeld in Sources */,
 				BAEFB4F92BB6FCC10002D6EF /* AppDelegate.swift in Sources */,
 				BA7D80BA2BBAE20E0054085C /* StorageManager.swift in Sources */,

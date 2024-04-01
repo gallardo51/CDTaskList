@@ -21,6 +21,7 @@ class TaskListViewController: UITableViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellID)
+        navigationItem.leftBarButtonItem = editButtonItem
         setNavigationBar()
         fetchData()
     }
@@ -114,6 +115,19 @@ extension TaskListViewController {
         content.text = task.title
         cell.contentConfiguration = content
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        .none
+    }
+    
+    override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
+        false
+    }
+    
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let currentTask = taskList.remove(at: sourceIndexPath.row)
+        taskList.insert(currentTask, at: destinationIndexPath.row)
     }
 }
 
